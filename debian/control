@@ -1,0 +1,12 @@
+Source: lab1-var11
+Section: utils
+Priority: optional
+Maintainer: Evgeniy
+Build-Depends: debhelper-compat (= 13), gcc, make
+Standards-Version: 4.6.0
+
+Package: lab1-var11
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Программа для варианта 11
+ Находит наибольший элемент массива K, отсутствующий в массиве L.

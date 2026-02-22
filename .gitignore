@@ -1,0 +1,50 @@
+# Скомпилированные файлы
+*.o
+*.so
+*.a
+lab1
+lab1-var11
+
+# Временные файлы
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Файлы созданные при сборке deb-пакета
+*.deb
+*.ddeb
+*.build
+*.buildinfo
+*.changes
+debian/files
+debian/.debhelper/
+debian/lab1-var11/
+debian/lab1-var11.debhelper.log
+debian/lab1-var11.substvars
+debian/tmp/
+
+# Результаты работы программы
+output.txt
+test.txt
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.code-workspace
+.project
+.classpath
+.settings/
+.cproject
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Временные бэкапы
+*.bak
+*.old
+
+# Логи
+*.log
